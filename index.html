@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <center>
+    <h2>Here is my Calculator</h2>
+    <div class="calcu">
+        <div class="screen"></div>
+        <div class="keys">
+    <!-- <input type="number"> -->
+        <section>
+        <button id="0">0</button>
+        </section>
+        <section>
+        <button id="1" onclick="calc.key(1)">1</button>
+        <button id="2"onclick="calc.key(2)">2</button>
+        <button id="3"onclick="calc.key(3)">3</button>
+        </section>
+        <section>
+        <button id="4"onclick="calc.key(4)">4</button>
+        <button id="5"onclick="calc.key(5)">5</button>
+        <button id="6"onclick="calc.key(6)">6</button>
+        </section>
+        <section>
+        <button id="7"onclick="calc.key(7)">7</button>
+        <button id="8"onclick="calc.key(8)">8</button>
+        <button id="9"onclick="calc.key(9)">9</button>
+        </section>
+        <section class="symbols">
+        
+        <button id="D" onclick="calc.keySymbols(calc.symbols[3])">/</button>
+        <button id="M"onclick="calc.keySymbols(calc.symbols[2])">*</button>
+        <button id="s" onclick="calc.keySymbols(calc.symbols[1])">-</button>
+        <button id="A" onclick="calc.keySymbols(calc.symbols[0])">+</button>
+        <button id="E" onclick="calc.result()">=</button>
+        </section>
+        <button class="clear" onclick="calc.clear()">Clear</button>
+        </section>
+        </div>
+    </div>>
+        
+    </center>
+</body>
+<script src="calculator.js"></script>
+</html>
